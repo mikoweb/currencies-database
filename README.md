@@ -7,4 +7,6 @@ You need Postgres and Ruby with Bundler.
 
 ## Export data to JSON
 
-TODO
+```sql
+SELECT export_currencies_to_json();
+```
